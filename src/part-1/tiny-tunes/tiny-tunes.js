@@ -106,6 +106,33 @@ exports.findHash = function(tweet) {
 
     return "";
 
+
+    /*
+    // Alt. solution that will work if the hashtag is in the middle
+    // of the string. The original assumed it always was att the and of the
+    // string. See solution above.
+    var index = tweet.indexOf("#");
+
+    // if we found it slice it (not the hash (+1))
+    if (index > -1) {
+        // found next " " to get hashtag if the hashtag is in the middle
+        var secIndex = tweet.indexOf(" ", index);
+        var result;
+        // check if it is in the middle
+        if(secIndex > -1) {
+            // remove the # from the string and just slice to the " "
+            result = tweet.slice(index + 1, secIndex);
+        }
+        else {
+            // it must been at the end
+            result = tweet.slice(index + 1);
+        }
+        return result;
+    }
+
+    return "";
+    */
+
 };
 
 /**

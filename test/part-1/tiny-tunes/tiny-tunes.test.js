@@ -77,6 +77,18 @@ describe("Test findHash()", function() {
         done();
     });
 
+    /*
+    // Removed this - test is not in original
+    it("findHash(\"Test #tag in middle\"); should return \"tag\"", function(done) {
+        expect(t.findHash("Test #tag in middle")).to.eql("tag");
+        done();
+    });
+
+    it("findHash(\"#Test tag first\"); should return \"Test\"", function(done) {
+        expect(t.findHash("#Test tag in middle")).to.eql("Test");
+        done();
+    });
+    */
 });
 
 describe("Test getOdd", function() {
