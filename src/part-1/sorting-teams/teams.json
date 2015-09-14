@@ -1,0 +1,29 @@
+{
+    "teams": [
+        {
+            "name": "Liverpool FC",
+            "nickname": "The Reds",
+            "points": 6
+        },
+        {
+            "name": "Arsenal",
+            "nickname": "The Gunners",
+            "points": 2
+        },
+        {
+            "name": "Manchester United",
+            "nickname": "The Red devils",
+            "points": 5
+        },
+        {
+            "name": "Tottenham Hotspur FC",
+            "nickname": "Spurs",
+            "points": 30
+        },
+        {
+            "name": "Everton FC",
+            "nickname": "The Toffees",
+            "points": 15
+        }
+    ]
+}
