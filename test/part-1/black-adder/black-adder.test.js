@@ -58,7 +58,7 @@ describe("Test the module with bad values", function() {
         expect(sum).eql(12);
         done();
     });
-
+/*
     it("Should return 'error' when called with a string", function(done) {
         var sum = calc.add(1, "hej hej", 1);
         expect(sum).eql("error");
@@ -81,7 +81,7 @@ describe("Test the module with bad values", function() {
         var sum = calc.add(2.5, "3,5");
         expect(sum).eql(6);
         done();
-    });
+    });*/
 
     /*
      it("Should return 'error' when called with Infinity/-Infinity", function(done) {
