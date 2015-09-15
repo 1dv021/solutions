@@ -336,7 +336,7 @@ exports.robberLanguageEncrypter = function(phrase) {
 exports.makeURL = function(domain, path, isSecure, port) {
 
     var errorMessage = "Incorrect parameters";
-    if ((!domain || typeof domain !==  "string") || (!path || typeof path !== "string")) {
+    if ((domain === undefined || typeof domain !==  "string") || (path === undefined || typeof path !== "string")) {
         return errorMessage;
     }
 
