@@ -23,7 +23,7 @@ Team.prototype.toTableRow = function(padding) {
     padding = padding || 25;
     var length = this.name.length;
     var diff = padding - length;
-    padding = new Array(diff).join(" ");
+    padding = new Array(diff+1).join(" ");
     return this.name + padding + this.points;
 };
 

@@ -52,7 +52,7 @@ describe("Team - toTableRow", function() {
         it("should return correct object string when called with no padding (default 25)", function(done) {
             var team = new Team("test");
             team.points = 25;
-            var str = Array(25 - team.name.length).join(" ");
+            var str = Array(26 - team.name.length).join(" ");
             str = team.name + str + team.points;
             expect(team.toTableRow()).eql(str);
             done();

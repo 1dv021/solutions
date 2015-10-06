@@ -250,7 +250,7 @@ describe("Leauge - getTableString", function() {
             r = {homeGoal: 2, awayGoal: 1};
             l.registerResult(r, t1, t2);
 
-            var space = Array(18).join(" ");
+            var space = Array(19).join(" ");
 
             var res = "t1" +space + "4\n" + "t2" +space + "1";
 
@@ -272,7 +272,7 @@ describe("Leauge - getTableString", function() {
             r = {homeGoal: 2, awayGoal: 2};
             l.registerResult(r, t1, t2);
 
-            var space = Array(18).join(" ");
+            var space = Array(19).join(" ");
 
             var res = "t2" +space + "4\n" + "t1" +space + "1";
 
@@ -309,7 +309,7 @@ describe("Leauge - multiple leauge", function() {
             r = {homeGoal: 2, awayGoal: 4};
             l2.registerResult(r, t111, t222);
 
-            var space = Array(18).join(" ");
+            var space = Array(19).join(" ");
 
             var res = "t1" +space + "4\n" + "t2" +space + "1";
             var res2 = "t2" +space + "6\n" + "t1" +space + "0";
